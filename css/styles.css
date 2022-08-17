@@ -828,14 +828,6 @@ body {
   color: #212121;
 }
 
-.modal-form-icon {
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  fill: #212121;
-  transform: translateY(-50%);
-}
-
 .register-form-group {
   display: flex;
   flex-direction: column;
@@ -860,12 +852,12 @@ body {
   outline: transparent;
 }
 
-.register-form-input:not(:focus) ~ .modal-form-icon {
-  fill: currentColor;
-}
-
-.register-form-input:not(:placeholder-shown) ~ .modal-form-icon {
-  fill: var(--acent-cl);
+.modal-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  fill: #212121;
+  transform: translateY(-50%);
 }
 
 .register-form-input:focus-within,
@@ -945,6 +937,7 @@ body {
 .form-agreement-link {
   color: #2196f3;
   text-decoration: underline;
+  text-underline-position: under;
 }
 .form-modal-checkbox-uncheck {
   opacity: 1;
