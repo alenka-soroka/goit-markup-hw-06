@@ -852,6 +852,14 @@ body {
   outline: transparent;
 }
 
+.register-form-input:not(:focus) ~ .modal-form-icon {
+  fill: currentColor;
+}
+
+.register-form-input:not(:placeholder-shown) ~ .modal-form-icon {
+  fill: var(--acent-cl);
+}
+
 .register-form-input:focus-within,
 .register-form-message:focus-within {
   border: 1px solid #2196f3;
