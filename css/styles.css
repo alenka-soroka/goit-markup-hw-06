@@ -828,6 +828,14 @@ body {
   color: #212121;
 }
 
+.modal-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  fill: #212121;
+  transform: translateY(-50%);
+}
+
 .register-form-group {
   display: flex;
   flex-direction: column;
@@ -879,14 +887,6 @@ body {
   line-height: 0.85;
   letter-spacing: 0.01em;
   color: #757575;
-}
-
-.modal-form-icon {
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  fill: #212121;
-  transform: translateY(-50%);
 }
 
 .form-input-icon {
